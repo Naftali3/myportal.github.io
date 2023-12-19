@@ -1,0 +1,452 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.png);
+  background-size: auto;
+  color: #ffffff;
+  background-color: #0d0d0d;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 3px solid #6a5b10;
+}
+header a {
+  color: #6a5b10;
+}
+header .sat {
+  position: absolute;
+  top: 17px;
+  right: 25px;
+}
+header .du {
+  position: absolute;
+  top: 17px;
+  right: 65px;
+}
+header .ti {
+  position: absolute;
+  top: 17px;
+  right: 105px;
+}
+header .em {
+  position: absolute;
+  top: 17px;
+  left: 25px;
+}
+header h1 {
+  font-size: 20px;
+  font-family: cooper black;
+}
+header .logo {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  left: 60px;
+  top: 5px;
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 500px;
+  align-items: center;
+}
+main .u {
+  width: 840px;
+  height: 500px;
+  position: absolute;
+  align-items: center;
+}
+main .u .sal {
+  width: auto;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 3px;
+  border-radius: 10px;
+  border: solid 1px #6a5b10;
+}
+main .u .sal .ip {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  left: 20px;
+  top: 20px;
+}
+main .u .sal .ip .sat {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 9, 9);
+  border-radius: 100px;
+  scroll-behavior: smooth;
+}
+main .u .sal .ip .du {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(253, 233, 15);
+  border-radius: 100px;
+  scroll-behavior: smooth;
+}
+main .u .sal .ip .ti {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(36, 255, 11);
+  border-radius: 100px;
+  scroll-behavior: smooth;
+}
+main .u .sal h2 {
+  position: absolute;
+  top: -3px;
+  left: 310px;
+  font-family: comic sans ms;
+  color: rgb(219, 218, 217);
+}
+main .u .sal p {
+  width: 400px;
+  margin-left: 200px;
+  position: absolute;
+  top: 45px;
+  font-family: comic sans ms;
+  color: rgb(103, 104, 104);
+}
+main .u .pro {
+  width: auto;
+  height: 200px;
+
+  margin-top: -20px;
+  padding-top: 10px;
+}
+main .u .pro .gam {
+  display: flex;
+  gap: 70px;
+  width: 320px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  overflow-x: scroll;
+  border-radius: 10px;
+  border: solid 1px #6a5b10;
+  padding-top: 10px;
+  position: absolute;
+  top: 200px;
+  scroll-behavior: smooth;
+}
+
+main .u .pro h3 {
+  margin-left: 130px;
+  position: absolute;
+  top: 120px;
+  font-family: comic sans ms;
+  color: aliceblue;
+}
+main .u .pro .tanda {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  left: 120px;
+  top: 178px;
+  scroll-behavior: smooth;
+}
+main .u .pro .tanda .sat {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(81, 75, 75);
+  border-radius: 100px;
+  scroll-behavior: smooth;
+  border: solid 1px #6a5b10;
+}
+main .u .pro .tanda .du {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(81, 75, 75);
+  border-radius: 100px;
+  border: solid 1px #6a5b10;
+}
+main .u .pro .tanda .ti {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(81, 75, 75);
+  border-radius: 100px;
+  border: solid 1px #6a5b10;
+}
+
+main .u .pro .gam .sat h4 {
+  margin-left: 115px;
+  text-decoration: none;
+}
+main .u .pro .gam a {
+  text-decoration: none;
+  color: #fff;
+}
+main .u .pro .sat p {
+  margin-left: 0px;
+  font-size: 4px;
+  opacity: 0;
+}
+main .u .pro .sat .link10 {
+  width: 230px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+main .u .pro .du .link7 {
+  width: 230px;
+  height: 150px;
+  border-radius: 20px;
+}
+main .u .pro .du h4 {
+  margin-left: 80px;
+}
+main .u .pro .du p {
+  margin-left: -10px;
+  font-size: 4px;
+  opacity: 0;
+}
+main .u .pro .du .tan {
+  position: absolute;
+  top: 10px;
+  left: 320px;
+  display: block;
+  width: 310px;
+  background-color: #6a5b10;
+  opacity: 0;
+}
+main .u .pro .ti .tan2 {
+  position: absolute;
+  top: 10px;
+  background-color: #fff;
+  right: -600px;
+  opacity: 0;
+}
+main .u .pro .ti .link8 {
+  width: 230px;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+main .u .pro .ti h4 {
+  margin-left: 78px;
+}
+main .u .pro .ti p {
+  margin-left: 43px;
+  font-size: 4px;
+  opacity: 0;
+}
+main .u .feed {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 350px;
+  height: 260px;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 1px #6a5b10;
+}
+main .u .feed h3 {
+  margin-left: 118px;
+  color: #fff;
+  font-family: comic sans ms;
+  font-size: 18px;
+}
+main .u .feed .nama {
+  display: flex;
+  margin-left: 80px;
+}
+main .u .feed .nama .icon .con {
+  color: #6a5b10;
+}
+main .u .feed .email .icon .ic {
+  color: #6a5b10;
+}
+main .u .feed .nama input {
+  width: auto;
+  height: 17px;
+  background-color: #0d0d0d;
+  border: solid 1px #6a5b10;
+  border-radius: 5px;
+  color: #fff;
+}
+main .u .feed .email {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+main .u .feed .email input {
+  width: auto;
+  height: 17px;
+  border: solid 1px #6a5b10;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0d0d0d;
+}
+
+main .u .feed textarea {
+  width: 250px;
+  height: 50px;
+  margin-left: 48px;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+  margin-top: 25px;
+  border: solid 1px #6a5b10;
+  color: #fff;
+}
+main .u .feed button {
+  width: 100px;
+  height: 25px;
+  margin-left: 130px;
+  margin-top: 10px;
+  display: flex;
+  color: #fff;
+  background-color: #0d0d0d;
+  border: solid 1px #6a5b10;
+  border-radius: 3px;
+}
+main .u .feed button .kir {
+  width: 15px;
+  height: 15px;
+  margin-right: 14px;
+  color: #fff;
+}
+main .e {
+  position: absolute;
+  right: 10px;
+  width: 350px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main .e .profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  border: solid 3px #6a5b10;
+}
+main .e .data {
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  font-family: tw cen mt;
+  color: #6d6a6a;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+@media (max-width: 450px) {
+  main .u {
+    width: 420px;
+    height: 1000px;
+    position: relative;
+    align-items: center;
+  }
+  main .u .sal {
+    width: 420px;
+    height: 1240px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    margin-left: -10px;
+  }
+  main .u .sal h2 {
+    position: relative;
+    top: 30px;
+    left: 9px;
+  }
+  main .u .pro {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 17px;
+
+    text-align: center;
+
+    top: 400px;
+    padding-top: 10px;
+  }
+  main .u .pro h3 {
+    left: 8px;
+    width: 50px;
+  }
+  main .u .feed {
+    position: absolute;
+    right: 45px;
+    top: 900px;
+  }
+  main .u .sal p {
+    width: 420px;
+    margin-left: -5px;
+    position: absolute;
+    top: 95px;
+  }
+  main .e {
+    position: absolute;
+    top: 200px;
+    width: 350px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: -4px;
+  }
+  main .e .profil {
+    width: 50px;
+    height: 50px;
+    left: 212px;
+    top: 90px;
+    bottom: 50px;
+  }
+  main .e .data {
+    font-size: 13px;
+    height: 100px;
+    margin-left: 130px;
+  }
+  main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 1240px;
+    align-items: center;
+  }
+  header .sat {
+    position: absolute;
+    top: 17px;
+    right: 25px;
+    width: 18px;
+    height: 18px;
+  }
+  header .du {
+    position: absolute;
+    top: 17px;
+    right: 65px;
+    width: 18px;
+    height: 18px;
+  }
+  header .ti {
+    position: absolute;
+    top: 17px;
+    right: 105px;
+    width: 18px;
+    height: 18px;
+  }
+  header .em {
+    position: absolute;
+    top: 17px;
+    left: 25px;
+    width: 18px;
+    height: 18px;
+  }
+}

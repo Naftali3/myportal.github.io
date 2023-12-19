@@ -1,0 +1,341 @@
+body {
+	background-image: url(../gambar/disney4.png);
+	background-color: #8c7c73;
+	font-family: cursive;
+
+}
+
+.kotak {
+	width: 750px;
+
+	background-color: whitesmoke;
+	margin: auto;
+	position: relative;}
+
+.side {
+	width: 750px;
+	height: 70px;
+	background-color: aliceblue;
+	position: relative;}
+
+     .side h1 {
+	display: inline-block;
+	font-family: cursive;
+	position: absolute;
+	left: 20px;
+	bottom: 2px;}
+
+      .side a {
+	position: absolute;
+	top: 20px;
+	text-decoration: none;
+	font-family: arial;}
+
+	  .side .i {
+	left: 150px;}
+
+	.side .o {
+	left: 270px;}
+
+	.side .p {
+	left: 390px;}
+
+	.side .m {
+	left: 550px;}
+
+	.side a:hover {
+	background-color: whitesmoke;
+	color: black;}
+
+.judul h2 {
+	font-family: calibri;
+	height: 80px;
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 3px;}
+
+.gambarutama {
+	width: 750px;
+	height: 470px;
+	background-color: lightblue;
+	position: relative;}
+
+.anime {
+	width: 70px;
+	height: 70px;
+
+	margin-left: 30px;
+	
+	display: inline-block;}
+	
+
+.penulis {
+	width: 210px;
+	height: 90px;
+	display: inline-block;
+	position: absolute;}
+
+
+.penulis p {
+	
+	font-family: dubai light;
+	font-size: 11px;}
+
+
+.kotak h3 {
+	font-family: cursive;
+	margin-left: 30px;}
+
+.konten2 {
+	width: 750px;
+	height: 399px;}
+
+	.gambar2 {
+	margin-left: 30px;}
+
+	.text2 {
+	width: 300px;
+	height: 390px;
+	background-color: bisque;
+	margin-left: 72px;
+	position: absolute;
+	border: 2px dashed burlywood; 
+	overflow: auto;}
+
+	.text2 h4 {
+    text-align: center;}
+
+    .text2 p {
+	font-family: modern era, sans-serif ;
+	margin-left: 8px;}
+
+.ket4  {
+	width: 750px;
+	height: 500px;
+	position: absolute;}
+
+	
+
+	.ket4 .ket {
+		width: 750px;
+		margin-left: 10px;
+		font-family: candara;}
+
+	
+
+	
+	.ket4 .ket .tahun  {
+		width: 15px;
+		padding-bottom: 15px;
+		border-bottom: solid 1px #addd;}
+
+	.ket4 .ket .genre {
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 1px #addd;}
+
+	.ket4 .ket .sutradara {
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 1px #addd;}
+
+	.ket4 .ket .negara {
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 1px #addd;}
+
+	.ket4 .ket .durasi {
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 1px #addd;}
+
+	.ket4 .ket .soundtrack {
+		padding-top: 20px;
+		padding-bottom: 15px;
+		border-bottom: solid 1px #addd;}
+
+.konten3 {
+	width: 750px;
+	}
+
+	.gambar3 {
+		width: 260px;
+		height: 384px;
+		margin-left: 30px;}	
+
+	.text3 {
+		width: 300px;
+		height: 384px;
+		background-color: #65c6d9;
+		position: absolute;
+		margin-left: 72px;
+		border: 2px dotted burlywood; 
+		overflow: auto;}
+
+	.text3 h4 {
+		text-align: center;}
+
+	.text3 p {
+		margin-left: 8px;}
+
+.konten4 {
+	width: 750px;}
+	
+
+	.gambar4 {
+		width: 260px;
+		height: 384px;
+		margin-left: 30px;}	
+
+	.text4 {
+		width: 300px;
+		height: 384px;
+		background-color: #8ebe41;
+		position: absolute;
+		margin-left: 72px;
+		border: 2px dotted burlywood; 
+		overflow: auto;}
+
+	.text4 h4 {
+		text-align: center;}
+
+	.text4 p {
+		margin-left: 8px;}
+	
+.penutup {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.foter {
+
+	width: 100%;
+	height: 30px;
+	background-color: black;
+
+}
+.foter .po {
+	padding-top: 5px;
+	margin-left: 34%;
+	color: whitesmoke;
+	
+}
+.kat {
+	font-size: 20px;
+	font-family: arial rounded mt bold;
+}
+
+.input label {
+	font-family: arial rounded mt bold;
+}
+.im label {
+	font-family: arial rounded mt bold;
+}
+.kom label {
+	font-family: arial rounded mt bold;
+}
+.kirim button {
+	font-family: arial rounded mt bold;
+	width: 100%;
+	height: 30px;
+	background-color: bisque;
+}
+.label input {
+	width: 100%;
+}
+.mail input {
+	width: 100%;
+}
+.komen textarea {
+	width: 100%;
+	height: 100px;
+}
+.kami {
+	width: 100%;
+	height: 100px;
+	background-color: orange;
+	position: relative;
+	top: 20px;
+	font-family: arial rounded mt bold;
+}
+.kami .t {
+	position: absolute;
+	left: 40px;
+}
+.kami .h {
+	position: absolute;
+	left: 35%;
+}
+.kami .k {
+	position: absolute;
+	left: 40px;
+	top: 40%;
+}
+.kami .p {
+	position: absolute;
+	left: 35%;
+	top: 40%;
+}
+.kami .face {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 580px;
+	top: 24%;
+
+
+}
+.kami .in {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 480px;
+	top: 24%;
+}
+.kami .face {
+
+}
+	
+	
+
+
+	
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
