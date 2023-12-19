@@ -350,14 +350,20 @@ footer {
   height: 30px;
 }
 @media (max-width: 450px) {
+  header {
+    width: 370px;
+  }
+  footer {
+    width: 370px;
+  }
   main .u {
-    width: 420px;
+    width: 350px;
     height: 1000px;
     position: relative;
     align-items: center;
   }
   main .u .sal {
-    width: 350px;
+    width: 360px;
     height: 1240px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -367,13 +373,13 @@ footer {
   main .u .sal h2 {
     position: relative;
     top: 30px;
-    left: 9px;
+    left: 4px;
   }
   main .u .pro {
     width: 400px;
     height: 200px;
     position: absolute;
-    left: 17px;
+    left: -17px;
 
     text-align: center;
 
@@ -386,11 +392,13 @@ footer {
   }
   main .u .feed {
     position: absolute;
-    right: 45px;
+    right: 25px;
     top: 900px;
+    width: 320px;
+    height: 260px;
   }
   main .u .sal p {
-    width: 420px;
+    width: 360px;
     margin-left: -5px;
     position: absolute;
     top: 95px;
@@ -401,7 +409,7 @@ footer {
     width: 350px;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.1);
-    left: -4px;
+    left: -52px;
   }
   main .e .profil {
     width: 50px;
